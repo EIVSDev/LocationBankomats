@@ -1,15 +1,13 @@
-package com.example.slava.locationbankomats;
+package com.example.slava.locationbankomats.models;
 
 /**
- * Created by Slava on 12.07.2017.
+ * Created by Slava on 16.08.2017.
  */
 
-public class BankomatAdress {
+public class TSOAdress {
     public String andress;
-    public String latitude;
-    public String longitude;
 
-    public BankomatAdress(String andress, String latitude, String longitude) {
+    public TSOAdress(String andress, String latitude, String longitude) {
         this.andress = andress;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -38,4 +36,7 @@ public class BankomatAdress {
     public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
+
+    public String latitude;
+    public String longitude;
 }
